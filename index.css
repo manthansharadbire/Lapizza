@@ -1,0 +1,17 @@
+.headline{width: fit-content; display: flex; flex-direction: column; flex-wrap: wrap; }
+
+.pizzaboss{ color:#CF0A0A; margin-top: -5px;margin-left: 2px; font-family:Grey Qo   ; font-size: 60px;}
+
+.span{ margin-top: -58px; margin-left:70px; color: #EEEEEE; font-family:Grey Qo   ; font-size: 35px;}
+
+.navbar{ display: flex; flex-direction: row; margin-left: 300px; margin-top: -40px; justify-content: space-around; flex-wrap: wrap;}
+
+.options{ color:  #EEEEEE; font-family:Grey Qo   ;font-size: 30px; cursor: pointer; }
+
+.searchbar{ border: #EEEEEE solid 2px; border-radius: 30px; text-align: center; color: white; background: transparent; cursor: pointer; font-family:Grey Qo;font-size: 25px; }
+
+.options:hover{ color:#CF0A0A ; transition: 1sec; }
+
+.searchbar:hover{ color:#CF0A0A ; transition: 1sec;  border: solid 2px #CF0A0A;}
+
+
