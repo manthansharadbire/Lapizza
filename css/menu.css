@@ -1,0 +1,31 @@
+.headline{width: fit-content; display: flex; flex-direction: column; flex-wrap: wrap; }
+
+.lapizza{ color:#CF0A0A; margin-top: 1px;margin-left: 15px; font-size: 60px; text-decoration: overline; }
+
+.span{ margin-top: -105px; margin-left:140px; color: #EEEEEE; font-family:Grey Qo   ; font-size: 20px;}
+
+.navbar{ display: flex; flex-direction: row; margin-left: 274px; margin-top: 5px; justify-content: space-evenly; flex-wrap: wrap;}
+
+.options{ color:  #EEEEEE;   ;font-size: 15px; cursor: pointer;  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; display: block; }
+
+.searchbar{ border: #EEEEEE solid 2px; text-align: left;  background: transparent; cursor: pointer; font-size: 15px; width: 150px; height: 25px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; color:#EEEEEE; padding-left: 7px; padding: 3px 5px; margin-top: -6px; margin-left: 170px;}
+
+.searchicon{height: 20px; background-color: #CF0A0A; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; margin-left: -56px; margin-top: -5px; border: solid 2px white; cursor: pointer;}
+.searchicon:hover{transform: scale(1.02);}
+
+.options:hover{ color:#CF0A0A ; transition: 1sec;  margin-top: -4px; }
+
+.searchbar:hover{ color:#CF0A0A ; transition: 1sec;  border: solid 2px #CF0A0A}
+
+#menu{color: #CF0A0A;}
+
+.cardholder{display:flex; width: 1232px; justify-content: space-around;}
+.cardparent{display: flex; flex-direction: column; flex-wrap: wrap; height: 405px; width: 300px;  align-items: center; cursor: pointer; border-radius: 10px; background-color: rgb(28, 25, 25);}
+.farmhousepizza{height: 200px; width: 270px; margin-top: 17px; border-radius: 10px;}
+.veg{height: 30px; margin-top: -35px; margin-left: 220px;}
+.pizzaname{color: #EEEEEE; font-size: xx-large; margin-top: 10px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.pizzadescription{color: #EEEEEE; font-size: large; margin-top: 10px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.price{color: #EEEEEE; font-size: large; margin-top: -2px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.addtocart{height: 30px; border: solid 2px #EEEEEE; border-radius: 10px; margin-top: 10px; cursor: pointer;}
+.addtocart:hover{transform: scale(1.05);}
+.cardparent:hover{background-color:#CF0A0A}
