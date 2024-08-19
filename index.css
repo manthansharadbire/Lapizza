@@ -4,11 +4,14 @@
 
 .span{ margin-top: -105px; margin-left:140px; color: #EEEEEE; font-family:Grey Qo   ; font-size: 20px;}
 
-.navbar{ display: flex; flex-direction: row; margin-left: 250px; margin-top: 5px; justify-content: space-evenly; flex-wrap: wrap;}
+.navbar{ display: flex; flex-direction: row; margin-left: 274px; margin-top: 5px; justify-content: space-evenly; flex-wrap: wrap;}
 
 .options{ color:  #EEEEEE;   ;font-size: 15px; cursor: pointer;  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; display: block; }
 
-.searchbar{ border: #EEEEEE solid 2px; border-radius: 30px; text-align: center;  background: transparent; cursor: pointer; font-size: 15px; width: 150px; height: 18px; margin-top: -1px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; color:#EEEEEE;}
+.searchbar{ border: #EEEEEE solid 2px; text-align: left;  background: transparent; cursor: pointer; font-size: 15px; width: 150px; height: 25px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; color:#EEEEEE; padding-left: 7px; padding: 3px 5px; margin-top: -6px;}
+
+.searchicon{height: 20px; background-color: #CF0A0A; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; margin-left: -114px; margin-top: -5px; border: solid 2px white; cursor: pointer;}
+.searchicon:hover{transform: scale(1.02);}
 
 .options:hover{ color:#CF0A0A ; transition: 1sec;  margin-top: -4px; }
 
@@ -22,7 +25,8 @@
 
 .tagline-text{ font-size: 60px; color: #EEEEEE; text-align: justify; height: fit-content;}
 
-.word{font-size: 75px; color: #CF0A0A;}
+.word{font-size: 75px; color: #CF0A0A; cursor: pointer;}
+.word:hover{color: #EEEEEE;}
 
 .paragraph-parent{ width: 340px;margin-left: 400px; display: flex; margin-top: -10px; height: fit-content; flex-wrap: wrap; }
 
