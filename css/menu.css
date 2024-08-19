@@ -19,7 +19,7 @@
 
 #menu{color: #CF0A0A;}
 
-.cardholder{display:flex; width: 1232px; justify-content: space-around;}
+.cardholder{display:flex; width: 1215px; justify-content: space-around;}
 .cardparent{display: flex; flex-direction: column; flex-wrap: wrap; height: 405px; width: 300px;  align-items: center; cursor: pointer; border-radius: 10px; background-color: rgb(28, 25, 25);}
 .farmhousepizza{height: 200px; width: 270px; margin-top: 17px; border-radius: 10px;}
 .veg{height: 30px; margin-top: -35px; margin-left: 220px;}
@@ -29,3 +29,6 @@
 .addtocart{height: 30px; border: solid 2px #EEEEEE; border-radius: 10px; margin-top: 10px; cursor: pointer;}
 .addtocart:hover{transform: scale(1.05);}
 .cardparent:hover{background-color:#CF0A0A}
+
+.copyrightparent{background-color: #CF0A0A; height: 30px; padding-top: 10px;}
+.copyright{color: #EEEEEE; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; margin-left: 10px; }
