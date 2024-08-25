@@ -10,7 +10,7 @@
 
 .searchbar{ border: #EEEEEE solid 2px; text-align: left;  background: transparent; cursor: pointer; font-size: 15px; width: 150px; height: 25px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; color:#EEEEEE; padding-left: 7px; padding: 3px 5px; margin-top: -6px;}
 
-.searchicon{height: 20px; background-color: #CF0A0A; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; margin-left: -114px; margin-top: -5px; border: solid 2px white; cursor: pointer;}
+.searchicon{height: 20px; background-color: #CF0A0A; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; margin-left: -90px; margin-top: -5px; border: solid 2px white; cursor: pointer;}
 .searchicon:hover{transform: scale(1.02);}
 
 .options:hover{ color:#CF0A0A ; transition: 1sec;  margin-top: -4px; }
@@ -19,16 +19,16 @@
 
 .pizzabgparent{display: flex; flex-wrap: wrap;}
 
-.pizzabg{ width: 480px;  display: block; margin-left: -190px; margin-top: 20px;}
+.pizzabg{ width: 480px;  display: block; margin-left: -230px; margin-top: 20px;}
 
-.tagline{ display: flex; flex-wrap: wrap; margin-left: 400px; margin-top: -430px; text-align: center; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; width: fit-content;}
+.tagline{ display: flex; flex-wrap: wrap; margin-left: 370px; margin-top: -430px; text-align: center; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; width: fit-content;}
 
 .tagline-text{ font-size: 60px; color: #EEEEEE; text-align: justify; height: fit-content;}
 
 .word{font-size: 75px; color: #CF0A0A; cursor: pointer;}
 .word:hover{color: #EEEEEE;}
 
-.paragraph-parent{ width: 340px;margin-left: 400px; display: flex; margin-top: -10px; height: fit-content; flex-wrap: wrap; }
+.paragraph-parent{ width: 340px;margin-left: 370px; display: flex; margin-top: -10px; height: fit-content; flex-wrap: wrap; }
 
 .paragraph{ color: #EEEEEE; text-align: justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; }
 
@@ -42,3 +42,7 @@
 .imgtwo:hover{margin-top: 4px; }
 .imgthree:hover{margin-top: 4px; }
 
+.order{ padding: 12px 20px ;  border:none; background-color: #CF0A0A; margin-top: 10px;}
+.order:hover{background-color:#EEEEEE; cursor: pointer;}
+
+.fullpizza{width: 400px; margin-left: 820px;  margin-top: -350px;}

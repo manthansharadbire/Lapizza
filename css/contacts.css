@@ -19,13 +19,47 @@
 
 #menu{color: #CF0A0A;}
 
-.cardholder{display:flex; width: 1256px; justify-content: space-around;}
-.cardparent{display: flex; flex-direction: column; flex-wrap: wrap; height: 405px; width: 300px;  align-items: center; cursor: pointer; border-radius: 10px; background-color: rgb(28, 25, 25);}
-.farmhousepizza{height: 200px; width: 270px; margin-top: 17px; border-radius: 10px;}
-.veg{height: 30px; margin-top: -35px; margin-left: 220px;}
-.pizzaname{color: #EEEEEE; font-size: xx-large; margin-top: 10px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.pizzadescription{color: #EEEEEE; font-size: large; margin-top: 10px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.price{color: #EEEEEE; font-size: large; margin-top: -2px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.addtocart{height: 30px; border: solid 2px #EEEEEE; border-radius: 10px; margin-top: 10px; cursor: pointer;}
-.addtocart:hover{transform: scale(1.05);}
-.cardparent:hover{background-color:#CF0A0A}
+.commentparent{display: flex; flex-wrap: wrap; flex-direction: column; width: 440px; margin-left: 39px; height: 226px;}
+.title{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: x-large; color:#EEEEEE;}
+.commentbox{ padding-bottom: 93.5px; margin-top: 5px; color: #00332c; margin-top: 11px; border: solid 1px grey; padding-left: 10px; padding-top: 10px;}
+.commentbtn{padding-bottom: 15px; border: solid 1px grey; padding-top: 15px; margin-top: 20px; width: 110px; text-align: center; background-color: #CF0A0A;}
+.commentbtn:hover{background-color:#EEEEEE; cursor: pointer;}
+
+.verticalline{display: flex; flex-direction: column; flex-wrap: wrap;  margin-top: -220px;}
+.length{height: 220px;}
+
+.emailparent{display: flex; flex-wrap: wrap; flex-direction: column; width: 440px; margin-left: 771px; height: 226px; margin-top: -245px;}
+.emailtitle{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: x-large; color:#EEEEEE;}
+.emailpara{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:#EEEEEE;}
+.mailbox{padding-bottom: 15px; border: solid 1px grey; padding-top: 15px; padding-left: 10px; font-size: large; color: grey; margin-top: 10px;}
+.subscribebtn{padding-bottom: 15px; border: solid 1px grey; padding-top: 15px; margin-top: 20px; width: 110px; text-align: center; background-color: #CF0A0A;}
+.subscribebtn:hover{background-color:#EEEEEE; cursor: pointer;}
+
+#hor{width: 1270px; margin-top: 11px;}
+
+.footerparent{background-color:#1e2020; display: flex; flex-direction: row; flex-wrap: wrap; height: 233px; }
+.footer{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5; padding-left: 395px; cursor: pointer;}
+
+.footerlogo{height: 40px; padding-top: 37px; padding-left: 10px;}
+
+.name{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5;  font-size: x-large; margin-top: 43px; margin-left: 35px;}
+
+.bio{margin-top: 83px; margin-left: 5px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5; margin-left: -310px;}
+
+.socialparent{display: flex; flex-direction: row; flex-wrap: wrap; margin-top: 130px; margin-left: -280px;}
+
+.socialmediaicon{height: 25px; padding: 10px; cursor: pointer;}
+.copyright{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5; margin-top: 195px; margin-left: -225px;}
+.socialmediaicon:hover{transform: scale(1.2);}
+
+.quicklinks{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5;  font-size: larger; margin-top: 43px; margin-left: 70px;}
+
+.links{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5; margin-top: 83px; margin-left: -105px; font-size: small; cursor: pointer;}
+.links:hover{color:#CF0A0A;}
+
+.contact{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5;  font-size: larger; margin-top: 43px;margin-left: 80px; }
+
+.contactparagraph{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #f2f7f5;margin-top: 83px; font-size: small; cursor: pointer;  margin-left: -82px;}
+.contactparagraph:hover{color:#CF0A0A ;}
+
+.playstore{height: 140px; margin-left: 70px; margin-top: 23px; cursor: pointer;}
